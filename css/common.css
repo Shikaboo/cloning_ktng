@@ -1,0 +1,22 @@
+:root{
+    --main-blue-color:#007aff;
+    --mian-dim-font:#111;
+    --mian-dark-font:#333;
+    --mian-gray-font:#666;
+    --mian-light-font:#999;
+}
+
+/* 다른 속성에 위 값을 넣을 땐 var(--main-blue-color) 의 형식으로 넣어야 함. */
+
+.w100 {
+    width: 100%;
+}
+
+.w1440 {
+    max-width: 1440px;
+    margin: 0 auto; 
+}
+
+.flex{
+    display: flex;
+}
